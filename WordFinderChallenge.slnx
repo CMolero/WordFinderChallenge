@@ -1,4 +1,7 @@
 <Solution>
-  <Project Path="WordFinder.Test/WordFinder.Test.csproj" />
+  <Project Path="WordFinder.Demo/WordFinder.Demo.csproj" Id="b3fe3d7d-8d05-437c-80f7-6e2fa9c30fee" />
+  <Project Path="WordFinder.Test/WordFinder.Test.csproj">
+    <BuildDependency Project="WordFinder/WordFinder.csproj" />
+  </Project>
   <Project Path="WordFinder/WordFinder.csproj" />
 </Solution>
